@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.sec{
+    padding: 3rem 0;
+}
+/* The header text of SECTIONS-------> */
+.section-header{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.section-header h3{
+    color: #efefef;
+    font-size: 70px;
+    position: absolute;
+    letter-spacing: 1px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section-header h5{
+    color: #6168FF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.section-header h4{
+    font-size: 27px;
+    font-weight: 100;
+    color: #333;
+}
+/* <-------------------------------- */
+
+
+/* HEADER */
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+#header .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px 0;
+    margin: auto;
+}
+#header .header .left{
+    width: 50%;
+}
+#header .header .left a img{
+    width: 150px;
+}
+#header .header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+#header .header ul li a{
+    color: #666666;
+    margin: 0px 18px;
+    font-size: 16px;
+    font-weight: 800;
+}
+#header .header ul li a:hover{
+    color: #6168FF;
+}
+/* AMAZING */
+#amazing{
+    margin-top: 50px;
+    background-image: url(../image/amazing1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 11rem 0;
+    position: relative;
+    z-index: 5;
+}
+#amazing .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.5);
+    z-index: -1;
+}
+#amazing h4{
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+#amazing h1{ 
+    font-size: 56px;
+    margin-bottom: 55px;
+}
+#amazing a{
+    background-color: #6168FF;
+    border: 2px solid #6168FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    padding: 13px 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#amazing a:hover{
+    border: 2px solid white;
+    background-color: transparent;
+}
+/* ACTIVITIES */
+#activities{
+
+}
+#activities .activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#activities .activities .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+#activities .activities .cards .card{
+    width: 50%;
+    padding: 20px;
+}
+#activities .activities .cards .card i{
+    font-size: 50px;
+    color: #6168FF;
+}
+#activities .activities .cards .card h4{
+    font-size: 18px;
+    margin: 12px 0;
+    letter-spacing: 1px;
+    color: #333;
+}
+#activities .activities .cards .card p{
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+}
+#activities .activities .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#activities .activities .image img{
+    width: 100%;
+}
+#activities .activities .image i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #6168FF;
+    font-size: 50px;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+/* DESTINATION */
+#destination{
+}
+#destination .destination{
+    width: 80%;
+    margin: auto;
+}
+#destination .destination .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#destination .destination .cards .card{
+    width: 30%;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #ebe6de;
+    border-radius: 3px;
+    color: #727272;
+}
+#destination .destination .cards .card .card-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+#destination .destination .cards .card .card-text .top{
+    display: flex;
+    justify-content: space-between;
+}
+#destination .destination .cards .card .card-text .top h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #333;
+}
+#destination .destination .cards .card .image img{
+    width: 100%;
+}
+/* SERVICES */
+#services{
+
+}
+#services .services{
+    width: 80%;
+    margin: auto;
+}
+#services .services .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#services .services .cards .card{
+    width: 31%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F9FF;
+}
+#services .services .cards .card .icon{
+    width: 25%;
+    margin-right: 20px;
+}
+#services .services .cards .card .icon i{
+    font-size: 50px;
+    color: #6168FF;
+    margin-right: 20px;   
+}
+#services .services .cards .card .card-text{
+    
+}
+#services .services .cards .card .card-text h4{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+#services .services .cards .card .card-text p{
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.8;
+}
+/* GALLERY */
+#gallery{
+
+}
+#gallery .gallery{
+    width: 80%;
+    margin: auto;
+}
+#gallery .gallery .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#gallery .gallery .cards .card{
+    width: 31%;
+    margin: 10px;
+    position: relative;
+}
+#gallery .gallery .cards .card .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery .gallery .cards .card:hover .overlay{
+    background-color: #6169ffa6;
+}
+#gallery .gallery .cards .card .overlay p{
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#gallery .gallery .cards .card:hover p{
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+#gallery .gallery .cards .card .overlay a{
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery .gallery .cards .card:hover .overlay a{
+    right: 15px;
+    opacity: 1;
+}
+#gallery .gallery .cards .card .image{
+    width: 100%;
+}
+#gallery .gallery .cards .card .image img{
+    width: 100%;
+    vertical-align: bottom;
+}
